@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "perf": "tsc -P apps/worker-test/tsconfig.app.json && node dist/out-tsc/apps/worker-test/src/main.js && rm -rf node_modules/.cache/nx/nxdeps.json && NX_PERF_LOGGING=true yarn nx affected:apps",
     "nx": "nx",
     "start": "nx serve",
     "build": "nx build",
@@ -29,12 +30,21 @@
   "dependencies": {},
   "devDependencies": {
     "@nrwl/workspace": "10.1.0",
-    "@types/node": "~8.9.4",
+    "@types/node": "~12.12.55",
     "dotenv": "6.2.0",
+    "eslint": "6.8.0",
+    "prettier": "2.0.4",
     "ts-node": "~7.0.0",
     "tslint": "~6.0.0",
-    "eslint": "6.8.0",
     "typescript": "~3.9.3",
-    "prettier": "2.0.4"
+    "@nrwl/jest": "10.1.0",
+    "jest": "26.2.2",
+    "@types/jest": "26.0.8",
+    "ts-jest": "26.1.4",
+    "@nrwl/node": "10.1.0",
+    "@nrwl/eslint-plugin-nx": "10.1.0",
+    "@typescript-eslint/parser": "2.19.2",
+    "@typescript-eslint/eslint-plugin": "2.19.2",
+    "eslint-config-prettier": "6.0.0"
   }
 }
