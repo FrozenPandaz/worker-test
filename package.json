@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "perf": "tsc -P apps/worker-test/tsconfig.app.json && node dist/out-tsc/apps/worker-test/src/main.js",
+    "perf:nx": "rm -rf node_modules/.cache/nx && NX_PERF_LOGGING=true nx affected:apps",
     "nx": "nx",
     "start": "nx serve",
     "build": "nx build",
@@ -29,10 +30,10 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
-    "@nrwl/eslint-plugin-nx": "10.1.0",
-    "@nrwl/jest": "10.1.0",
-    "@nrwl/node": "10.1.0",
-    "@nrwl/workspace": "^10.2.0",
+    "@nrwl/eslint-plugin-nx": "10.2.0",
+    "@nrwl/jest": "10.2.0",
+    "@nrwl/node": "10.2.0",
+    "@nrwl/workspace": "10.2.0",
     "@types/jest": "26.0.8",
     "@types/node": "~12.12.55",
     "@typescript-eslint/eslint-plugin": "2.19.2",

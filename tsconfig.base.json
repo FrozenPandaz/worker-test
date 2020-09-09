@@ -21,6 +21,306 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@worker-test/lib0": [
+        "libs/lib0/src/index.ts"
+      ],
+      "@worker-test/lib1": [
+        "libs/lib1/src/index.ts"
+      ],
+      "@worker-test/lib2": [
+        "libs/lib2/src/index.ts"
+      ],
+      "@worker-test/lib3": [
+        "libs/lib3/src/index.ts"
+      ],
+      "@worker-test/lib4": [
+        "libs/lib4/src/index.ts"
+      ],
+      "@worker-test/lib5": [
+        "libs/lib5/src/index.ts"
+      ],
+      "@worker-test/lib6": [
+        "libs/lib6/src/index.ts"
+      ],
+      "@worker-test/lib7": [
+        "libs/lib7/src/index.ts"
+      ],
+      "@worker-test/lib8": [
+        "libs/lib8/src/index.ts"
+      ],
+      "@worker-test/lib9": [
+        "libs/lib9/src/index.ts"
+      ],
+      "@worker-test/lib10": [
+        "libs/lib10/src/index.ts"
+      ],
+      "@worker-test/lib11": [
+        "libs/lib11/src/index.ts"
+      ],
+      "@worker-test/lib12": [
+        "libs/lib12/src/index.ts"
+      ],
+      "@worker-test/lib13": [
+        "libs/lib13/src/index.ts"
+      ],
+      "@worker-test/lib14": [
+        "libs/lib14/src/index.ts"
+      ],
+      "@worker-test/lib15": [
+        "libs/lib15/src/index.ts"
+      ],
+      "@worker-test/lib16": [
+        "libs/lib16/src/index.ts"
+      ],
+      "@worker-test/lib17": [
+        "libs/lib17/src/index.ts"
+      ],
+      "@worker-test/lib18": [
+        "libs/lib18/src/index.ts"
+      ],
+      "@worker-test/lib19": [
+        "libs/lib19/src/index.ts"
+      ],
+      "@worker-test/lib20": [
+        "libs/lib20/src/index.ts"
+      ],
+      "@worker-test/lib21": [
+        "libs/lib21/src/index.ts"
+      ],
+      "@worker-test/lib22": [
+        "libs/lib22/src/index.ts"
+      ],
+      "@worker-test/lib23": [
+        "libs/lib23/src/index.ts"
+      ],
+      "@worker-test/lib24": [
+        "libs/lib24/src/index.ts"
+      ],
+      "@worker-test/lib25": [
+        "libs/lib25/src/index.ts"
+      ],
+      "@worker-test/lib26": [
+        "libs/lib26/src/index.ts"
+      ],
+      "@worker-test/lib27": [
+        "libs/lib27/src/index.ts"
+      ],
+      "@worker-test/lib28": [
+        "libs/lib28/src/index.ts"
+      ],
+      "@worker-test/lib29": [
+        "libs/lib29/src/index.ts"
+      ],
+      "@worker-test/lib30": [
+        "libs/lib30/src/index.ts"
+      ],
+      "@worker-test/lib31": [
+        "libs/lib31/src/index.ts"
+      ],
+      "@worker-test/lib32": [
+        "libs/lib32/src/index.ts"
+      ],
+      "@worker-test/lib33": [
+        "libs/lib33/src/index.ts"
+      ],
+      "@worker-test/lib34": [
+        "libs/lib34/src/index.ts"
+      ],
+      "@worker-test/lib35": [
+        "libs/lib35/src/index.ts"
+      ],
+      "@worker-test/lib36": [
+        "libs/lib36/src/index.ts"
+      ],
+      "@worker-test/lib37": [
+        "libs/lib37/src/index.ts"
+      ],
+      "@worker-test/lib38": [
+        "libs/lib38/src/index.ts"
+      ],
+      "@worker-test/lib39": [
+        "libs/lib39/src/index.ts"
+      ],
+      "@worker-test/lib40": [
+        "libs/lib40/src/index.ts"
+      ],
+      "@worker-test/lib41": [
+        "libs/lib41/src/index.ts"
+      ],
+      "@worker-test/lib42": [
+        "libs/lib42/src/index.ts"
+      ],
+      "@worker-test/lib43": [
+        "libs/lib43/src/index.ts"
+      ],
+      "@worker-test/lib44": [
+        "libs/lib44/src/index.ts"
+      ],
+      "@worker-test/lib45": [
+        "libs/lib45/src/index.ts"
+      ],
+      "@worker-test/lib46": [
+        "libs/lib46/src/index.ts"
+      ],
+      "@worker-test/lib47": [
+        "libs/lib47/src/index.ts"
+      ],
+      "@worker-test/lib48": [
+        "libs/lib48/src/index.ts"
+      ],
+      "@worker-test/lib49": [
+        "libs/lib49/src/index.ts"
+      ],
+      "@worker-test/lib50": [
+        "libs/lib50/src/index.ts"
+      ],
+      "@worker-test/lib51": [
+        "libs/lib51/src/index.ts"
+      ],
+      "@worker-test/lib52": [
+        "libs/lib52/src/index.ts"
+      ],
+      "@worker-test/lib53": [
+        "libs/lib53/src/index.ts"
+      ],
+      "@worker-test/lib54": [
+        "libs/lib54/src/index.ts"
+      ],
+      "@worker-test/lib55": [
+        "libs/lib55/src/index.ts"
+      ],
+      "@worker-test/lib56": [
+        "libs/lib56/src/index.ts"
+      ],
+      "@worker-test/lib57": [
+        "libs/lib57/src/index.ts"
+      ],
+      "@worker-test/lib58": [
+        "libs/lib58/src/index.ts"
+      ],
+      "@worker-test/lib59": [
+        "libs/lib59/src/index.ts"
+      ],
+      "@worker-test/lib60": [
+        "libs/lib60/src/index.ts"
+      ],
+      "@worker-test/lib61": [
+        "libs/lib61/src/index.ts"
+      ],
+      "@worker-test/lib62": [
+        "libs/lib62/src/index.ts"
+      ],
+      "@worker-test/lib63": [
+        "libs/lib63/src/index.ts"
+      ],
+      "@worker-test/lib64": [
+        "libs/lib64/src/index.ts"
+      ],
+      "@worker-test/lib65": [
+        "libs/lib65/src/index.ts"
+      ],
+      "@worker-test/lib66": [
+        "libs/lib66/src/index.ts"
+      ],
+      "@worker-test/lib67": [
+        "libs/lib67/src/index.ts"
+      ],
+      "@worker-test/lib68": [
+        "libs/lib68/src/index.ts"
+      ],
+      "@worker-test/lib69": [
+        "libs/lib69/src/index.ts"
+      ],
+      "@worker-test/lib70": [
+        "libs/lib70/src/index.ts"
+      ],
+      "@worker-test/lib71": [
+        "libs/lib71/src/index.ts"
+      ],
+      "@worker-test/lib72": [
+        "libs/lib72/src/index.ts"
+      ],
+      "@worker-test/lib73": [
+        "libs/lib73/src/index.ts"
+      ],
+      "@worker-test/lib74": [
+        "libs/lib74/src/index.ts"
+      ],
+      "@worker-test/lib75": [
+        "libs/lib75/src/index.ts"
+      ],
+      "@worker-test/lib76": [
+        "libs/lib76/src/index.ts"
+      ],
+      "@worker-test/lib77": [
+        "libs/lib77/src/index.ts"
+      ],
+      "@worker-test/lib78": [
+        "libs/lib78/src/index.ts"
+      ],
+      "@worker-test/lib79": [
+        "libs/lib79/src/index.ts"
+      ],
+      "@worker-test/lib80": [
+        "libs/lib80/src/index.ts"
+      ],
+      "@worker-test/lib81": [
+        "libs/lib81/src/index.ts"
+      ],
+      "@worker-test/lib82": [
+        "libs/lib82/src/index.ts"
+      ],
+      "@worker-test/lib83": [
+        "libs/lib83/src/index.ts"
+      ],
+      "@worker-test/lib84": [
+        "libs/lib84/src/index.ts"
+      ],
+      "@worker-test/lib85": [
+        "libs/lib85/src/index.ts"
+      ],
+      "@worker-test/lib86": [
+        "libs/lib86/src/index.ts"
+      ],
+      "@worker-test/lib87": [
+        "libs/lib87/src/index.ts"
+      ],
+      "@worker-test/lib88": [
+        "libs/lib88/src/index.ts"
+      ],
+      "@worker-test/lib89": [
+        "libs/lib89/src/index.ts"
+      ],
+      "@worker-test/lib90": [
+        "libs/lib90/src/index.ts"
+      ],
+      "@worker-test/lib91": [
+        "libs/lib91/src/index.ts"
+      ],
+      "@worker-test/lib92": [
+        "libs/lib92/src/index.ts"
+      ],
+      "@worker-test/lib93": [
+        "libs/lib93/src/index.ts"
+      ],
+      "@worker-test/lib94": [
+        "libs/lib94/src/index.ts"
+      ],
+      "@worker-test/lib95": [
+        "libs/lib95/src/index.ts"
+      ],
+      "@worker-test/lib96": [
+        "libs/lib96/src/index.ts"
+      ],
+      "@worker-test/lib97": [
+        "libs/lib97/src/index.ts"
+      ],
+      "@worker-test/lib98": [
+        "libs/lib98/src/index.ts"
+      ],
+      "@worker-test/lib99": [
+        "libs/lib99/src/index.ts"
+      ]
     }
   },
   "exclude": [
